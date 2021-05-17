@@ -9,7 +9,7 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/styles.css" />
     <title>Just Ate | Home</title>
   </head>
   <body>
@@ -41,85 +41,7 @@
       </nav>
     </header>
     <div class="container">
-      <!-- Restaurant Card -->
-      <div>
-        <div class="card">
-          <div class="card-body">
-            <form>
-              <div class="mb-3">
-                <label for="restaurantName" class="form-label"
-                  >Restaurant Name</label
-                >
-                <input
-                  type="text"
-                  class="form-control"
-                  id="restaurantName"
-                  value="Red Grill"
-                />
-              </div>
-
-              <div class="mb-3">
-                <label for="cuisineType" class="form-label">Cuisine Type</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="cuisineType"
-                  value="Pizza"
-                />
-              </div>
-
-              <div class="mb-3">
-                <label for="address" class="form-label">Address</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="address"
-                  value="58419 Adams Park, West Rozella, NY 54213-4606"
-                />
-              </div>
-
-              <div class="mb-3">
-                <label for="description" class="form-label">Description</label>
-                <textarea type="text" class="form-control" id="description">
-To provide an exceptional dining experience that satisfies our guests’ grown-up tastes by being a Cut-Above in everything we do.</textarea
-                >
-              </div>
-
-              <div class="mb-3">
-                <label for="logoUrl" class="form-label">Logo URL</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="logoUrl"
-                  value="https://loremflickr.com/cache/resized/65535_51115359786_8735f73124_c_500_500_nofilter.jpg"
-                />
-              </div>
-
-              <div class="mb-3">
-                <label for="phoneNumber" class="form-label">Phone Number</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="phoneNumber"
-                  value="(133) 830-7761 x3232"
-                />
-              </div>
-
-              <div class="mb-3">
-                <label for="review" class="form-label">Review</label>
-                <p id="review">
-                  Brand new. Great design. Odd to hear pop music in a Mexican
-                  establishment. Music is a bit loud. It should be background.
-                </p>
-              </div>
-
-              <button type="submit" class="btn btn-primary mb-3">
-                Save Changes
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
+      <div id="restaurant-form"></div>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
@@ -142,5 +64,6 @@ To provide an exceptional dining experience that satisfies our guests’ grown-u
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <script src="/assets/js/restaurant.js"></script>
   </body>
 </html>

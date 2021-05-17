@@ -1,54 +1,7 @@
 {
-  "7459": {
-    "id": 7459,
-    "name": "Red Grill",
-    "type": "Pizza",
-    "description": "To provide an exceptional dining experience that satisfies our guests’ grown-up tastes by being a Cut-Above in everything we do.",
-    "review": "Brand new. Great design. Odd to hear pop music in a Mexican establishment. Music is a bit loud. It should be background.",
-    "logo": "https://loremflickr.com/cache/resized/65535_51115359786_8735f73124_c_500_500_nofilter.jpg",
-    "phone_number": "(133) 830-7761 x3232",
-    "address": "58419 Adams Park, West Rozella, NY 54213-4606",
-    "hours": {
-      "monday": {
-        "opens_at": "10:30 AM",
-        "closes_at": "7:53 PM",
-        "is_closed": false
-      },
-      "tuesday": {
-        "opens_at": "6:44 AM",
-        "closes_at": "9:17 PM",
-        "is_closed": true
-      },
-      "wednesday": {
-        "opens_at": "9:25 AM",
-        "closes_at": "1:48 PM",
-        "is_closed": false
-      },
-      "thursday": {
-        "opens_at": "11:44 AM",
-        "closes_at": "4:33 PM",
-        "is_closed": false
-      },
-      "friday": {
-        "opens_at": "10:14 AM",
-        "closes_at": "10:33 PM",
-        "is_closed": false
-      },
-      "saturday": {
-        "opens_at": "9:49 AM",
-        "closes_at": "10:45 PM",
-        "is_closed": true
-      },
-      "sunday": {
-        "opens_at": "10:16 AM",
-        "closes_at": "4:26 PM",
-        "is_closed": true
-      }
-    }
-  },
   "4016": {
     "id": 4016,
-    "name": "DO Subs",
+    "name": "New Ice Cream Parlour",
     "type": "Ice Cream",
     "description": "To provide an exceptional dining experience that satisfies our guests’ grown-up tastes by being a Cut-Above in everything we do.",
     "review": "Overall, the evening was a smash and I am so glad there is a new location closer to my office!!",
@@ -91,6 +44,55 @@
         "closes_at": "9:25 PM",
         "is_closed": true
       }
-    }
+    },
+    "phoneNumber": "277-089-0256 x1658"
+  },
+  "7459": {
+    "id": 7459,
+    "name": "Red Grill 20",
+    "type": "Steaks",
+    "description": "To provide an exceptional dining experience that satisfies our guests’ grown-up tastes by being a Cut-Above in everything we do.",
+    "review": "Brand new. Great design. Odd to hear pop music in a Mexican establishment. Music is a bit loud. It should be background.",
+    "logo": "https://loremflickr.com/cache/resized/65535_51115359786_8735f73124_c_500_500_nofilter.jpg",
+    "phone_number": "(133) 830-7761 x3232",
+    "address": "58419 Adams Park, West Rozella, NY 54213-4606",
+    "hours": {
+      "monday": {
+        "opens_at": "10:30 AM",
+        "closes_at": "7:53 PM",
+        "is_closed": false
+      },
+      "tuesday": {
+        "opens_at": "6:44 AM",
+        "closes_at": "9:17 PM",
+        "is_closed": true
+      },
+      "wednesday": {
+        "opens_at": "9:25 AM",
+        "closes_at": "1:48 PM",
+        "is_closed": false
+      },
+      "thursday": {
+        "opens_at": "11:44 AM",
+        "closes_at": "4:33 PM",
+        "is_closed": false
+      },
+      "friday": {
+        "opens_at": "10:14 AM",
+        "closes_at": "10:33 PM",
+        "is_closed": false
+      },
+      "saturday": {
+        "opens_at": "9:49 AM",
+        "closes_at": "10:45 PM",
+        "is_closed": true
+      },
+      "sunday": {
+        "opens_at": "10:16 AM",
+        "closes_at": "4:26 PM",
+        "is_closed": true
+      }
+    },
+    "phoneNumber": "(133) 830-7761 x3232"
   }
 }

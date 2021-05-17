@@ -11,7 +11,7 @@ const app = express();
 // Middleware
 app.use(cors());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
+app.use(express.json({ extended: true }));
 app.use(express.static("public"));
 app.use("/", htmlRoutes);
 app.use("/api", apiRoutes);
