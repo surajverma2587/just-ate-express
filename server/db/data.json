@@ -84,5 +84,91 @@
         }
       ]
     }
+  },
+  "4016": {
+    "id": 4016,
+    "name": "DO Subs",
+    "type": "Ice Cream",
+    "description": "To provide an exceptional dining experience that satisfies our guests’ grown-up tastes by being a Cut-Above in everything we do.",
+    "review": "Overall, the evening was a smash and I am so glad there is a new location closer to my office!!",
+    "logo": "https://loremflickr.com/500/500/restaurant",
+    "phone_number": "277-089-0256 x1658",
+    "address": "Suite 441 819 Nitzsche Run, West Jessfurt, UT 59133-2321",
+    "hours": {
+      "monday": {
+        "opens_at": "9:12 AM",
+        "closes_at": "10:15 PM",
+        "is_closed": true
+      },
+      "tuesday": {
+        "opens_at": "11:23 AM",
+        "closes_at": "12:32 PM",
+        "is_closed": true
+      },
+      "wednesday": {
+        "opens_at": "7:14 AM",
+        "closes_at": "5:15 PM",
+        "is_closed": true
+      },
+      "thursday": {
+        "opens_at": "10:54 AM",
+        "closes_at": "5:56 PM",
+        "is_closed": false
+      },
+      "friday": {
+        "opens_at": "6:29 AM",
+        "closes_at": "3:16 PM",
+        "is_closed": false
+      },
+      "saturday": {
+        "opens_at": "8:29 AM",
+        "closes_at": "1:11 PM",
+        "is_closed": false
+      },
+      "sunday": {
+        "opens_at": "6:18 AM",
+        "closes_at": "9:25 PM",
+        "is_closed": true
+      }
+    },
+    "menu": {
+      "food": [
+        {
+          "id": 8795,
+          "dish": "Tuna Sashimi",
+          "description": "Creamy mascarpone cheese and custard layered between espresso and rum soaked house-made ladyfingers, topped with Valrhona cocoa powder.",
+          "ingredient": "Cherries",
+          "price": 12.99
+        },
+        {
+          "id": 5393,
+          "dish": "Chicken Milanese",
+          "description": "Breaded fried chicken with waffles. Served with maple syrup.",
+          "ingredient": "Cloves",
+          "price": 8.99
+        },
+        {
+          "id": 930,
+          "dish": "Philadelphia Maki",
+          "description": "Two buttermilk waffles, topped with whipped cream and maple syrup, a side of two eggs served any style, and your choice of smoked bacon or smoked ham.",
+          "ingredient": "Asian Greens",
+          "price": 3.99
+        },
+        {
+          "id": 7465,
+          "dish": "Peking Duck",
+          "description": "Two butter croissants of your choice (plain, almond or cheese). With a side of herb butter or house-made hazelnut spread.",
+          "ingredient": "Broccoli",
+          "price": 20.99
+        },
+        {
+          "id": 2768,
+          "dish": "Chicken Wings",
+          "description": "Two butter croissants of your choice (plain, almond or cheese). With a side of herb butter or house-made hazelnut spread.",
+          "ingredient": "Iceberg Lettuce",
+          "price": 14.99
+        }
+      ]
+    }
   }
 }
